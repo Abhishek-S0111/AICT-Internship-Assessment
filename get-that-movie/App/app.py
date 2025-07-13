@@ -28,6 +28,7 @@ if movie:
     while count != 5:
         if recommendations[disp] != movie:
             st.write("-", recommendations[disp])
-            count += 1  
+            count += 1
+            disp += 1
         else:
             disp += 1
