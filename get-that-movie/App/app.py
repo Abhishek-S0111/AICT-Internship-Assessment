@@ -19,8 +19,15 @@ if movie:
     movie_id = data[data['title'] == movie].index[0]
     similar_id = map[str(movie_id)]
     recommendations = data.iloc[similar_id]['title'].tolist()
-    recommendations = recommendations[1:6]
-    recommendations = sorted(recommendations)
 
-    for rec in recommendations:
-        st.write('- ', rec)
+    for i in range(1,6):
+        st.write('- ', recommendations[i])
+
+    disp = 0
+    count = 0
+    while count != 5:
+        if recommendations[disp] != movie:
+            st.write("-", recommendations[disp])
+            count += 1  
+        else:
+            disp += 1
