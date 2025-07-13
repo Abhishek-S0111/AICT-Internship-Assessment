@@ -4,7 +4,7 @@ import json
 from pandas import read_csv
 
 #load the precompute file
-with open("precompute/movie_sims_dict.json", 'r') as f:
+with open("get-that-movie/precompute/movie_sims_dict.json", 'r') as f:
     map = json.load(f)
 
 #load the movie dataset
