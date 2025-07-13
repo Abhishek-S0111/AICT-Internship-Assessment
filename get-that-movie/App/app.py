@@ -8,7 +8,7 @@ with open("get-that-movie/precompute/movie_sims_dict.json", 'r') as f:
     map = json.load(f)
 
 #load the movie dataset
-data = read_csv("data/movie.csv")
+data = read_csv("get-that-movie/data/movie.csv")
 
 movie_list = sorted(data['title'].tolist())
 movie = st.selectbox("Choose a movie : ", movie_list)
