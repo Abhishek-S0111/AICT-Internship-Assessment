@@ -30,6 +30,14 @@
 
 3. Run all the cells.
 
+### For the Deployed WebApp
+
+1. Go to <a href='https://aict-internship-assessment-movie-recommender.streamlit.app/' target='_blank' noreferrer>deployed webapp</a>.
+
+2. Select your choice of movie.
+
+3. Press Enter to Apply (Confirm).
+
 ## Acknowledgements
 
 - [Movie Lens] https://www.kaggle.com/datasets/grouplens/movielens-20m-dataset
